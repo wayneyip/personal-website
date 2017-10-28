@@ -19,12 +19,18 @@ ul.dropdown-menu > li {
 
 .content {
 	padding-top: 3%;
+	padding-bottom: 5%;
 }
 
 h1 {
 	text-transform: uppercase;
 	color: gray;
 	padding-bottom: 0.5%;
+}
+
+h2 {
+	color: gray;
+	padding-bottom: 1%;
 }
 
 .game {
@@ -42,6 +48,10 @@ h1 {
 	padding-top: 10%;
 }
 
+#about_image {
+	padding-top: 5%;
+}
+
 #about_contact {
 	padding-top: 10%;
 	text-align: right;
@@ -50,6 +60,10 @@ h1 {
 #about_contact p {
 	font-size: larger;
 	line-height: 90%;
+}
+
+#about_writeup {
+	padding-left: 5%;
 }
 
 #about_writeup p {
