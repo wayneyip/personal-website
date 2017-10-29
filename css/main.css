@@ -18,7 +18,7 @@ ul.dropdown-menu > li {
 }
 
 .content {
-	padding-top: 3%;
+	padding-top: 1%;
 	padding-bottom: 5%;
 }
 
@@ -33,12 +33,16 @@ h2 {
 	padding-bottom: 1%;
 }
 
-.game {
+.portfolio_item {
 	padding-bottom: 3%; 
 }
 
-.game p:nth-child(2) {
+.portfolio_item p:nth-child(2) {
 	font-style: italic;
+}
+
+.portfolio_item li {
+	padding-bottom: 2%;
 }
 
 #resume_div {

@@ -20,60 +20,64 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a href="index.html" class="navbar-brand">wayneyip</a>
+                <a href="index.html" class="navbar-brand">Wayne Yip</a>
             </div>
             <div id="navbarCollapse" class="collapse navbar-collapse">
                 <ul class="nav navbar-nav navbar-right">
                     <li><a href="index.html">Home</a></li>
-                    <li class="dropdown">
+                    <li class="dropdown active">
                         <a data-toggle="dropdown" class="nav-link dropdown-toggle" href="#">
                             Portfolio
                             <b class="caret"></b>
                         </a>
-                        <ul class="dropdown-menu text-center">
+                        <ul class="dropdown-menu">
                             <li><a href="games.html" class="dropdown-item">Games</a></li>
                             <li><a href="animation.html" class="dropdown-item">Animation</a></li>
-                            <li><a href="software.html" class="dropdown-item">Software</a></li>
+                            <li><a href="#" class="dropdown-item">Software</a></li>
                         </ul>
                     </li>
                     <li><a href="resume.html">Resume</a></li>
-                    <li class="active"><a href="#">About</a></li>
+                    <li><a href="about.html">About</a></li>
                 </ul>
             </div>
         </div>
     </nav>
-
     <div class="container content">
         <div class="row">
-            <div class="col-sm-3">
-                <div class="row">
-                    <img src="media/wayne.jpg" class="img-responsive" id="about_image">
-                </div>
-                <div class="row" id="about_contact">
-                    <p>1015 W 34th St, Unit 605</p>
-                    <p>Los Angeles, CA 90007</p>
-                    <p>(213) 880-9128</p>
-                    <p>yipw@usc.edu</p>
-                </div>
+            <h1>SOFTWARE</h1>
+        </div>
+        <div class="row">
+            <br/>
+        </div>
+        <div class="row portfolio_item">
+            <div class="col-sm-4">
+                <a href="https://github.com/wayneyip/retrome"><img src="media/software_retrome.png" class="img-responsive"></a>  
             </div>
-            <div class="col-sm-8" id="about_writeup">
-                <h1>About Me</h1>
+            <div class="col-sm-6">
+                <a href="https://github.com/wayneyip/retrome"><h3>RetroMe</h3></a>
+                <p>C++, Qt, Qt Creator · 2D Pixelated Avatar Creator  · Personal Project</p>
+                <p>Role: Solo Developer (full-stack programming, UI design, art assets)</p>
+                <br/>
                 <p>
-                I am a sophomore of USC's Bachelor of Science in Computer Science (Games) program. My interests and skills span widely across the visual arts, from traditional drawing and pixel art to 3D modeling and rigging. I am fascinated by the many possible intersections between art and technology, and I intend to continue exploring this with every step of my education.
+                RetroMe is a pixelated avatar creator programmed from scratch in object-oriented C++ and Qt.
                 </p>
-                
                 <p>
-                Outside my creative pursuits, I enjoy music and dance, both as a performer and an audience. I find a sense of wonder in observing the human body move to the flow of various rhythms, and I hope to communicate that feeling through my animated works.
+                Notable features:
                 </p>
-
+                <ul>
+                    <li>Uses a <b>customized heapsort</b> to render character parts in layers, accounting for multi-layered sprites like Hair which renders before and after the Head sprite.</li>
+                    <li>Uses <b>inheritance and polymorphism</b> to avoid the distinction of "front hair" and "back hair" as with most 2D avatar creators -- the multi-layered Hair class dynamically switches between two priorities during heapsort.</li>
+                    <li>Contains a <b>parser</b> for color palettes -- add any color of your choice by simply popping the RGB values into a text file.</li>
+                </ul>
+                  
+                </p>
+                <br/>
                 <p>
-                If you have any questions or comments about my work, feel free to send me an email.
-                Thanks for checking out my site!
+                Check out the <b>animated GIF demos</b> and source code of all its functionalities on GitHub!
                 </p>
             </div>   
         </div>
     </div>
-    
     <script src="js/jquery-3.2.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
 </body>
