@@ -81,10 +81,14 @@ h2 {
 
 #about_image {
 	padding-top: 5%;
+	padding-left: 2%;
+	padding-right: 2%;
 }
 
 #about_contact {
 	padding-top: 10%;
+	padding-left: 2%;
+	padding-right: 2%;
 	text-align: right;
 }
 
