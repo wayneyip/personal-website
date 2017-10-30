@@ -66,7 +66,7 @@
                 </p>
                 <ul>
                     <li>Uses a <b>customized heapsort</b> to render character parts in layers, accounting for multi-layered sprites like Hair which renders before and after the Head sprite.</li>
-                    <li>Uses <b>inheritance and polymorphism</b> to avoid the distinction of "front hair" and "back hair" as with most 2D avatar creators -- the multi-layered Hair class dynamically switches between two priorities during heapsort.</li>
+                    <li>Uses <b>inheritance and polymorphism</b> to create a multi-layered Hair subclass, which dynamically switches between two priorities during heapsort; this avoids the distinction of "front hair" and "back hair" categories found in most 2D avatar creators.</li>
                     <li>Contains a <b>parser</b> for color palettes -- add any color of your choice by simply popping the RGB values into a text file.</li>
                 </ul>
                   

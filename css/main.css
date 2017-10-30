@@ -33,6 +33,33 @@ h2 {
 	padding-bottom: 1%;
 }
 
+#home_carousel {
+	margin: auto;
+}
+
+.carousel-inner {
+	background: linear-gradient(#222222, #3b3b3b, #222222);
+}
+
+.carousel-inner > .item {
+  height: 80vh;
+}
+
+.carousel-inner > .item > img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  min-height: 100%;
+  width: auto;
+}
+
+.carousel-inner > .item:nth-child(3) > .carousel-caption {
+	color: black;
+}
+
 .portfolio_item {
 	padding-bottom: 3%; 
 }
