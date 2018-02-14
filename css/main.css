@@ -38,10 +38,6 @@ body {
 	background-color: #444444;
 }
 
-.navbar .navbar-nav .nav-link {
-  color: #90ee90;
-}
-
 .navbar .navbar-nav .nav-link:focus {
   background-color: #444444;
 }
@@ -56,7 +52,28 @@ ul.dropdown-menu li a.dropdown-item {
 
 .content {
 	padding-top: 1%;
-	padding-bottom: 5%;
+	padding-bottom: 1%;
+}
+
+.footer {
+	margin-top: 5%;
+	font-size: 80%;
+	padding-left: 1%;
+}
+
+.footer-buttons {
+	float: right;
+	padding-right: 1%;
+}
+
+.footer-buttons li {
+	display: inline-block;
+}
+
+.footer-icon {
+	height: 2.5em;
+	width: 2.5em;
+	margin-left: 0.5em;
 }
 
 h1 {
