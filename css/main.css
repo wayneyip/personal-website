@@ -94,7 +94,7 @@ h2 {
 }
 
 .carousel {
-	margin: auto;
+	margin: 0 auto;
 }
 
 #homeCarousel > .carousel-inner > .item {
@@ -119,7 +119,7 @@ h2 {
    	top: 50%;
     -webkit-transform: translateY(-50%) translateX(-50%);
     width: 100%;
-    min-width: 100;
+    min-width: 100%;
 	height: auto;
 }
 
@@ -131,6 +131,7 @@ h2 {
 	float: none;
     display: inline-block;
     vertical-align: middle;
+    margin: 0 auto;
 }
 
 .portfolio_item {
