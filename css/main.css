@@ -101,11 +101,11 @@ h2 {
   	height: 80vh;
 }
 
+#wirCarousel > .carousel-inner > .item,
 #superflickCarousel > .carousel-inner > .item,
 #bendifyCarousel > .carousel-inner > .item {
   	height: 40vh;
 }
-
 
 .carousel-inner {
 	background: linear-gradient(#222222, #3b3b3b, #222222);
