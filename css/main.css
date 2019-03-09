@@ -123,7 +123,7 @@ h2 {
 	height: auto;
 }
 
-.carousel-inner > .item:nth-child(2) > .carousel-caption {
+.carousel-inner > .item:nth-child(3) > .carousel-caption {
 	color: black;
 }
 
