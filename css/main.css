@@ -9,6 +9,18 @@ body {
     margin-bottom: 15%;
 }
 
+@media screen and (max-width: 992px) {
+    body {
+        margin-bottom: 30%;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    body {
+        margin-bottom: 50%;
+    }
+}
+
 .navbar-brand {
     font-size: 200%;
     font-family: 'Play', sans-serif;
@@ -69,15 +81,24 @@ ul.dropdown-menu li a.dropdown-item {
     position: absolute;
     bottom: 0;
     width: 100%;
-    height: 20rem;
+    height: 15rem;
     
-    padding-top: 5%;
+    display: flex;
+    align-items: center;
 
     background-color: #222222;
     border-radius: 0;
 
     font-size: 80%;
     color: white;
+}
+
+@media screen and (max-width: 768px) {
+    .footer > .container {
+        margin-left: 20px;
+        margin-right: 20px;
+        width: 100%;
+    }
 }
 
 .footer-buttons {
@@ -109,7 +130,7 @@ ul.dropdown-menu li a.dropdown-item {
 h1 {
     text-transform: uppercase;
     color: #222222;
-    padding-bottom: 0.5%;
+    padding-bottom: 1%;
 }
 
 h1:not(#about_header) {
@@ -132,7 +153,7 @@ h2 {
 
 #wirCarousel > .carousel-inner > .item,
 #superflickCarousel > .carousel-inner > .item {
-    height: 40vh;
+    height: 50vh;
 }
 
 .carousel-inner {
@@ -155,22 +176,39 @@ h2 {
     color: black;
 }
 
-.content_centered {
-    float: none;
-    display: inline-block;
-    vertical-align: middle;
-    margin: 0 auto;
+#retrome {
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(#222222, #3b3b3b, #222222);
+    border: 5px;
+}
+
+#retrome > img {
+    max-height: 50vh;
+}
+
+@media screen and (min-width: 992px) {
+    .portfolio_item {
+        display: flex;
+        align-items: center;
+    }
 }
 
 .portfolio_item {
     padding-bottom: 3%; 
 }
 
-.portfolio_item p:nth-child(2) {
+.software_technologies {
     font-style: italic;
 }
 
-.col-sm-7, .col-sm-6 {
+.portfolio_img {
+    border: 5px solid white;
+}
+
+.portfolio_description {
+    margin-left: 15px;
+    margin-right: 15px;
     border-radius: 25px;
     border: 5px solid white;
     background-color: rgba(255,255,255,0.7);
@@ -205,14 +243,6 @@ h2 {
     background-color: #444444;
 }
 
-.img-display {
-    margin-left: 2%;
-}
-
-.img-display:hover .overlay {
-  opacity: 0.5;
-}
-
 .img_text {
   color: black;
   font-size: 100%;
@@ -222,9 +252,7 @@ h2 {
 }
 
 #about_image {
-    padding-top: 5%;
-    padding-left: 2%;
-    padding-right: 2%;
+    margin-top: 5%;
 }
 
 #about_contact {
@@ -237,6 +265,16 @@ h2 {
 #about_contact p {
     font-size: larger;
     line-height: 90%;
+}
+
+@media screen and (max-width: 576px) {
+    #about_contact {
+        padding-bottom: 5%;
+    }
+
+    #about_contact {
+        font-size: larger;
+    }
 }
 
 #about_writeup {
