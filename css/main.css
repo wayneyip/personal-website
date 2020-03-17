@@ -151,6 +151,7 @@ h2 {
     height: 80vh;
 }
 
+#csCarousel > .carousel-inner > .item,
 #wirCarousel > .carousel-inner > .item,
 #superflickCarousel > .carousel-inner > .item {
     height: 50vh;
