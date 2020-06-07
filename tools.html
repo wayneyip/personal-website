@@ -33,10 +33,9 @@
                             <b class="caret"></b>
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a href="tools.html" class="dropdown-item">Tools</a></li>
-                            <li><a href="rigs.html" class="dropdown-item">Rigs</a></li>
-                            <li><a href="software.html" class="dropdown-item">Software</a></li>
                             <li><a href="videogames.html" class="dropdown-item">Games</a></li>
+                            <li><a href="tools.html" class="dropdown-item">Tools</a></li>
+                            <li><a href="software.html" class="dropdown-item">Software</a></li>
                         </ul>
                     </li>
                     <li><a href="about.html">About</a></li>
@@ -46,74 +45,63 @@
     </nav>
     <div class="page_title">
     </div>
-    <div class="container content">
+    <div class="container-fluid content">
         <div class="row">
-            <h1>Tools</h1>
-        </div>
-        <div class="row portfolio_item">
-            <div class="col-lg-6 col-sm-12">
+                <div class="col-md-offset-2 col-md-10">
+                <h2>Tools</h2>
+            </div>
+            <div class="col-md-offset-2 col-md-4">
                 <img src="media/tools_facify.png" onmouseover="this.src='media/tools_facify.gif'" onmouseout="this.src='media/tools_facify.png'" class="img-responsive portfolio_img">
             </div>
-            <br/>
-            <div class="col-lg-6 col-sm-12 portfolio_description">
-                <h3>Facify</h3>
-                <br/>
-                <p>Maya Python tool to automate curve-based eye/mouth rig setup on given sets of vertices.</p>
-                <p>Features include:</p>
-                <li>Joints aim constrained to locators bound to a high-density curve</li>
-                <li>Wire deformer to drive high-density linear curve with a low-density cubic curve</li>
-                <li>Controls angled to follow joint direction/face curvature</li>
-                <li>Blendshape-based Smart Close system for adjustable blink/close attributes</li>
-                <a href="https://github.com/wayneyip/facify" target="_blank"><div class="portfolio_button">GitHub</div></a><a href="https://vimeo.com/365357089" target="_blank"><div class="portfolio_button">Vimeo</div></a>
+            <div class="col-md-4 portfolio_entry">
+                <h3>Facify</h3><h4>Curve-based Eye/Mouth Autorigger</h4>
+                <div class="portfolio_description">
+                    <li>Wire deformer to drive multiple joints with few controls</li>
+                    <li>Controls angled to follow joint direction/face curvature</li>
+                    <li>Automatic blendshape setup for blink controls</li>
+                </div>
+                <a href="https://github.com/wayneyip/facify" target="_blank"><div class="portfolio_button">GitHub</div></a>
+                <a href="https://vimeo.com/365357089" target="_blank"><div class="portfolio_button">Vimeo</div></a>
             </div>
-        </div>
-        <div class="row portfolio_item">
-            <div class="col-lg-6 col-sm-12">
+            <div class="col-md-12"></div>
+            <div class="col-md-offset-2 col-md-4">
                 <img src="media/tools_splinify.png" onmouseover="this.src='media/tools_splinify.gif'" onmouseout="this.src='media/tools_splinify.png'" class="img-responsive portfolio_img">
             </div>
-            <br/>
-            <div class="col-lg-6 col-sm-12 portfolio_description">
-                <h3>Splinify</h3>
-                <br/>
-                <p>Maya Python tool to automate spline IK setup on two given joints.</p>
-                <p>Features include:</p>
-                <li>Automatic stretchy spine setup, with volume-preserving squash and stretch</li>
-                <li>Automatic cluster controls setup, with adjustable joint chain length along spline</li>
-                <li>Option to automate joint chain setup (up to 100 joints) or use existing joints</li>
+            <div class="col-md-4 portfolio_entry">
+                <h3>Splinify</h3><h4>Squash-and Stretch + Spline IK Autorigger</h4>
+                <div class="portfolio_description">
+                    <li>Automatic setup of volume-preserving squash & stretch</li>
+                    <li>Automatic cluster controls setup, with scalable spline length</li>
+                    <li>Option to automate joint chain setup or use existing joints</li>
+                </div>
                 <a href="https://github.com/wayneyip/splinify" target="_blank"><div class="portfolio_button">GitHub</div></a>
-            </div>   
-        </div>
-        <div class="row portfolio_item">
-            <div class="col-lg-6 col-sm-12">
+            </div>
+            <div class="col-md-12"></div>
+            <div class="col-md-offset-2 col-md-4">
                 <img src="media/tools_bendify.png" onmouseover="this.src='media/tools_bendify.gif'" onmouseout="this.src='media/tools_bendify.png'" class="img-responsive portfolio_img">
             </div>
-            <br/>
-            <div class="col-lg-6 col-sm-12 portfolio_description">
-                <h3>Bendify</h3>
-                <br/>
-                <p>Maya Python tool to automate bendy joint chain setup on two given joints.</p>
-                <p>Features include:</p>
-                <li>Automatic setup of any given number of sub-joints (up to 20)</li>
-                <li>Quadratic weight distribution across parent constraints, for bendy behavior</li>
-                <li>Automatic setup of curveInfo and multiplyDivide nodes, for stretchiness</li>
+            <div class="col-md-4 portfolio_entry">
+                <h3>Bendify</h3><h4>Bendy Bone Autorigger</h4>
+                <div class="portfolio_description">
+                    <li>Automatic setup of up to 20 sub-joints</li>
+                    <li>Quadratic weight distribution across parent constraints</li>
+                    <li>Automatic setup of curveInfo and multiplyDivide nodes</li>
+                </div>
                 <a href="https://github.com/wayneyip/bendify" target="_blank"><div class="portfolio_button">GitHub</div></a>
-            </div>   
-        </div>
-        <div class="row portfolio_item">
-            <div class="col-lg-6 col-sm-12">
+            </div>
+            <div class="col-md-12"></div>
+            <div class="col-md-offset-2 col-md-4">
                 <img src="media/tools_kinematify.png" onmouseover="this.src='media/tools_kinematify.gif'" onmouseout="this.src='media/tools_kinematify.png'" class="img-responsive portfolio_img">
             </div>
-            <br/>
-            <div class="col-lg-6 col-sm-12 portfolio_description">
-                <h3>Kinematify</h3>
-                <br/>
-                <p>Maya Python tool to automate IKFK blend setup on a given joint chain.</p>
-                <p>Features include:</p>
-                <li>Automatic creation of IK and FK joint chains</li>
-                <li>Creation of FK control curves with correctly oriented group nodes</li>
-                <li>Setup of "IK" attribute to control IK/FK blending from 0 to 1</li>
+            <div class="col-md-4 portfolio_entry">
+                <h3>Kinematify</h3><h4>Bendy Bone Autorigger</h4>
+                <div class="portfolio_description">
+                    <li>Automatic creation of IK and FK joint chains</li>
+                    <li>FK controls created with correctly oriented group nodes</li>
+                    <li>Setup of "IK" attribute for IK/FK blending from 0 to 1</li>
+                </div>
                 <a href="https://github.com/wayneyip/kinematify" target="_blank"><div class="portfolio_button">GitHub</div></a>
-            </div>   
+            </div>
         </div>
     </div>
     <footer class="footer">
