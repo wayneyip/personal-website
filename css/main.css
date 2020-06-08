@@ -94,8 +94,8 @@ ul.dropdown-menu li a.dropdown-item {
     background-color: #222222;
     border-radius: 0;
 
-    font-size: 80%;
-    color: white;
+    font-size: 90%;
+    color: #aaaaaa;
 }
 
 @media screen and (max-width: 768px) {
@@ -104,6 +104,14 @@ ul.dropdown-menu li a.dropdown-item {
         margin-right: 20px;
         width: 100%;
     }
+}
+
+.footer-text {
+    float: left;
+}
+
+a {
+    text-decoration: none;
 }
 
 .footer-buttons {
@@ -115,14 +123,14 @@ ul.dropdown-menu li a.dropdown-item {
     display: inline-block;
 }
 
-.footer-icon {
+.footer-button {
     height: 2.5em;
     width: 2.5em;
     margin-left: 0.5em;
     transition: opacity 0.1s ease;
 }
 
-.footer-icon:hover {
+.footer-button:hover {
     opacity: 0.7;
 }
 
@@ -144,8 +152,12 @@ h3 {
 h4 {
     color: #888888;
     padding-bottom: 1%;
-    display: inline-block;
     line-height: 1.5em;
+}
+
+h5 {
+    color: #666666;
+    font-size: larger;
 }
 
 .row {
@@ -255,6 +267,14 @@ h4 {
     display: inline-block;
 }
 
+.tech-icon {
+    height: 1.5em;
+    width: 1.5em;
+    margin-left: 1em;
+    margin-right: 0.6em;
+    opacity: 0.5;
+}
+
 .award-icon {
     height: 1em;
     width: 1em;
@@ -305,4 +325,5 @@ h4 {
     height: 1.5em;
     width: 1.5em;
     margin-left: 0.5em;
+    opacity: 0.5;
 }
