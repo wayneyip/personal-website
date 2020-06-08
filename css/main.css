@@ -159,18 +159,11 @@ h4 {
     padding-bottom: 2%;
 }
 
-.alt-row:before {
-    content: '';
-    position: absolute;
-    left: 0;
-    width: 100%;
-}
-
 .video {
     position: relative;
     width: 100%;
     height: 0;
-    padding-bottom: 51%;
+    padding-bottom: 61%;
 }
 
 .video iframe {
@@ -217,21 +210,21 @@ h4 {
     margin-bottom: 7%; 
 }
 
-.portfolio_description {
-    font-size: 1.1em;
-    color: #888888;
-}   
-
 .portfolio_entry li {
     padding-bottom: 1%;
 }
 
-.portfolio_entry a {
+.portfolio_entry a, .portfolio_description a {
     text-decoration: none;
     display: inline-block;
     margin-right: 5%;
     margin-top: 5%;
 }
+
+.portfolio_description {
+    font-size: 1.1em;
+    color: #888888;
+}   
 
 .portfolio_button {
     margin-top: 5%;
@@ -256,6 +249,16 @@ h4 {
 
 .home_img:hover {
     opacity: 0.8;
+}
+
+.inline {
+    display: inline-block;
+}
+
+.award-icon {
+    height: 1em;
+    width: 1em;
+    margin-right: 1em;
 }
 
 /* ---------------- About ---------------- */
