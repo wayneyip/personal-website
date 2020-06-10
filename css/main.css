@@ -110,7 +110,7 @@ ul.dropdown-menu li a.dropdown-item {
     float: left;
 }
 
-a {
+.footer-text a {
     text-decoration: none;
 }
 
@@ -267,10 +267,14 @@ h5 {
     display: inline-block;
 }
 
+.tech-text {
+    margin-right: 1em;
+    color: #888888;
+}
+
 .tech-icon {
     height: 1.5em;
     width: 1.5em;
-    margin-left: 1em;
     margin-right: 0.6em;
     opacity: 0.5;
 }
